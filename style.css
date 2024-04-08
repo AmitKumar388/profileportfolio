@@ -141,6 +141,7 @@
   .navbar .logo a span {
     background: linear-gradient(135deg, #041d3d, #fff, crimson);
     -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
     transition: all 0.3s ease;
   }
   
@@ -250,6 +251,7 @@
     color: #1e3551;
     background: linear-gradient(135deg, #041d3d, #fff, crimson);
     -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
     font-weight: 500;
   }
   
@@ -309,6 +311,7 @@
   .about .about-content .right .text span {
     /* color: #1e3551; */
     background: linear-gradient(135deg, #041d3d, #fff, crimson);
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   
@@ -380,6 +383,7 @@
     color: #888e8d;
     background: linear-gradient(135deg, #041d3d, #fff, crimson);
     -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
     transition: color 0.3s ease;
   }
   
